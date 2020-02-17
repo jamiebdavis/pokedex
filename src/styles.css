@@ -1,0 +1,51 @@
+body {
+  /*background-color: #1a1a1a;*/
+}
+
+.App {
+  font-family: "Inconsolata", monospace;
+  color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.masterContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.searchContainer {
+  width: 100%;
+}
+
+.pokedex {
+  height: 100%;
+  width: 400px;
+  background-color: #722A2B;
+  padding: 5px;
+  margin: 0.5em;
+
+}
+
+
+@media (max-width: 500px) {
+  .searchContainer {
+    display: none;
+  }
+}
+
+.pokeImage {
+  height: 50px;
+  width: 50px;
+  margin: 30px;
+}
+
+.pokeData {
+  display: flex;
+
+}
