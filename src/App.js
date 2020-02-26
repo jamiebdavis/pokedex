@@ -54,7 +54,7 @@ export default function App() {
         initialLoad();
     }, []);
 
-    // Find find name matches
+    // Find name matches
     const findMatches = (wordToMatch, pokemon) => {
         return pokemon.filter(char => {
             const regex = new RegExp(wordToMatch, "gi");
